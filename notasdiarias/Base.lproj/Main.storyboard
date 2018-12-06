@@ -13,7 +13,7 @@
         <!--Notas Diarias-->
         <scene sceneID="z5G-36-uGU">
             <objects>
-                <tableViewController id="HLL-Fy-TfF" sceneMemberID="viewController">
+                <tableViewController id="HLL-Fy-TfF" customClass="ListarAnotacoesTableViewController" customModule="notasdiarias" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Qe0-2W-LRR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,7 +48,7 @@
         <!--Adicionar-->
         <scene sceneID="fGh-US-sLx">
             <objects>
-                <viewController id="7Bd-bG-bMI" sceneMemberID="viewController">
+                <viewController id="7Bd-bG-bMI" customClass="AnotacaoViewController" customModule="notasdiarias" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="osJ-DS-MhF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,8 +71,15 @@
                         <viewLayoutGuide key="safeArea" id="dbe-C2-Eot"/>
                     </view>
                     <navigationItem key="navigationItem" title="Adicionar" id="AsR-Pl-OGg">
-                        <barButtonItem key="rightBarButtonItem" title="Salvar" id="6ly-Op-9pr"/>
+                        <barButtonItem key="rightBarButtonItem" title="Salvar" id="6ly-Op-9pr">
+                            <connections>
+                                <action selector="salvar:" destination="7Bd-bG-bMI" id="Ne9-BM-n4C"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="texto" destination="I2w-BN-Ldx" id="ssb-Ca-xRt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FFg-9Z-1YF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0A8FEE1521B91D9C00A741AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8FEE1421B91D9C00A741AD /* AppDelegate.swift */; };
-		0A8FEE1721B91D9C00A741AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8FEE1621B91D9C00A741AD /* ViewController.swift */; };
 		0A8FEE1A21B91D9C00A741AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8FEE1821B91D9C00A741AD /* Main.storyboard */; };
 		0A8FEE1D21B91D9C00A741AD /* notasdiarias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A8FEE1B21B91D9C00A741AD /* notasdiarias.xcdatamodeld */; };
 		0A8FEE1F21B91DA100A741AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8FEE1E21B91DA100A741AD /* Assets.xcassets */; };
 		0A8FEE2221B91DA100A741AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8FEE2021B91DA100A741AD /* LaunchScreen.storyboard */; };
+		0A8FEE2A21B91DA100A741AD /* ListarAnotacoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8FEE2921B91DA100A741AD /* ListarAnotacoesTableViewController.swift */; };
+		0A8FEE2C21B91DA100A741AD /* AnotacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8FEE2B21B91DA100A741AD /* AnotacaoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A8FEE1121B91D9C00A741AD /* notasdiarias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notasdiarias.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8FEE1421B91D9C00A741AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A8FEE1621B91D9C00A741AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A8FEE1921B91D9C00A741AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A8FEE1C21B91D9C00A741AD /* notasdiarias.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = notasdiarias.xcdatamodel; sourceTree = "<group>"; };
 		0A8FEE1E21B91DA100A741AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A8FEE2121B91DA100A741AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A8FEE2321B91DA100A741AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8FEE2921B91DA100A741AD /* ListarAnotacoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarAnotacoesTableViewController.swift; sourceTree = "<group>"; };
+		0A8FEE2B21B91DA100A741AD /* AnotacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotacaoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				0A8FEE1421B91D9C00A741AD /* AppDelegate.swift */,
-				0A8FEE1621B91D9C00A741AD /* ViewController.swift */,
+				0A8FEE2921B91DA100A741AD /* ListarAnotacoesTableViewController.swift */,
+				0A8FEE2B21B91DA100A741AD /* AnotacaoViewController.swift */,
 				0A8FEE1821B91D9C00A741AD /* Main.storyboard */,
 				0A8FEE1E21B91DA100A741AD /* Assets.xcassets */,
 				0A8FEE2021B91DA100A741AD /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A8FEE1721B91D9C00A741AD /* ViewController.swift in Sources */,
+				0A8FEE2C21B91DA100A741AD /* AnotacaoViewController.swift in Sources */,
 				0A8FEE1521B91D9C00A741AD /* AppDelegate.swift in Sources */,
 				0A8FEE1D21B91D9C00A741AD /* notasdiarias.xcdatamodeld in Sources */,
+				0A8FEE2A21B91DA100A741AD /* ListarAnotacoesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
